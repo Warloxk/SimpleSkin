@@ -1,41 +1,58 @@
 [Variables]
+; CPU0 Name
+HWiNFO-CPU0-Name-SensorId=0xf0000300
+HWiNFO-CPU0-Name-SensorInstance=0x0
+; CPU0 Usage
+HWiNFO-CPU0-Usage-SensorId=0xf0000300
+HWiNFO-CPU0-Usage-SensorInstance=0x0
+HWiNFO-CPU0-Usage-EntryId=0xfe
+; CPU0 Temp
+HWiNFO-CPU0-Temp-SensorId=0xf0000400
+HWiNFO-CPU0-Temp-SensorInstance=0x0
+HWiNFO-CPU0-Temp-EntryId=0x7f
+; CPU0 FAN
+HWiNFO-CPU0-Fan-SensorId=0xf000ac00
+HWiNFO-CPU0-Fan-SensorInstance=0x0
+HWiNFO-CPU0-Fan-EntryId=0xa0
+CPU0-Fan-Min=1000
+CPU0-Fan-Max=5000
 
-; CPU 0
-HWiNFO-CPU0-SensorId=0xF0000300
-HWiNFO-CPU0-SensorInstance=0x0
-HWiNFO-CPU0-Usage=0xfe
-HWiNFO-CPU0-Core0Clock=0xd0
-HWiNFO-CPU0-Core1Clock=0xd1
-HWiNFO-CPU0-Core2Clock=0xd2
-HWiNFO-CPU0-Core3Clock=0xd3
-HWiNFO-CPU0-Core4Clock=0xd4
-HWiNFO-CPU0-Core5Clock=0xd5
 
-; CPU 0 DTS
-HWiNFO-CPU0-DTS-SensorId=0xF0000400
-HWiNFO-CPU0-DTS-SensorInstance=0x0
-HWiNFO-CPU0-DTS-CoreMax=0x7f
 
-; Motherboard
-HWiNFO-MOBO-SensorId=0xf001889a
-HWiNFO-MOBO-SensorInstance=0x1
-HWiNFO-MOBO-CPU-Fan=0xa0
-HWiNFO-MOBO-CPU-VCore=0x81
 
-; GPU 0
-HWiNFO-GPU0-SensorId=0xe0002000
-HWiNFO-GPU0-SensorInstance=0x0
-HWiNFO-GPU0-Usage=0xe9
-HWiNFO-GPU0-Temp=0x0
-HWiNFO-GPU0-Fan=0x100
-HWiNFO-GPU0-CoreClock=0xd0
-HWiNFO-GPU0-Voltage=0x80
+; GPU0 Name
+HWiNFO-GPU0-Name-SensorId=0xf0002a00
+HWiNFO-GPU0-Name-SensorInstance=0x0
+; GPU0 Usage
+HWiNFO-GPU0-Usage-SensorId=0xf0002a00
+HWiNFO-GPU0-Usage-SensorInstance=0x0
+HWiNFO-GPU0-Usage-EntryId=0xe0
+; GPU0 Temp
+HWiNFO-GPU0-Temp-SensorId=0xf0002a00
+HWiNFO-GPU0-Temp-SensorInstance=0x0
+HWiNFO-GPU0-Temp-EntryId=0x4
+; GPU0 FAN
+HWiNFO-GPU0-Fan-SensorId=0xf000ac00
+HWiNFO-GPU0-Fan-SensorInstance=0x0
+HWiNFO-GPU0-Fan-EntryId=0xa0
+GPU0-Fan-Min=1000
+GPU0-Fan-Max=5000
 
-; GPU 1
-HWiNFO-GPU1-SensorId=0xe0002000
-HWiNFO-GPU1-SensorInstance=0x14
-HWiNFO-GPU1-Usage=0xe9
-HWiNFO-GPU1-Temp=0x0
-HWiNFO-GPU1-Fan=0x100
-HWiNFO-GPU1-CoreClock=0xd0
-HWiNFO-GPU1-Voltage=0x80
+
+; GPU1 Name
+HWiNFO-GPU1-Name-SensorId=0xe0002000
+HWiNFO-GPU1-Name-SensorInstance=0x14
+; GPU1 Usage
+HWiNFO-GPU1-Usage-SensorId=0xe0002000
+HWiNFO-GPU1-Usage-SensorInstance=0x14
+HWiNFO-GPU1-Usage-EntryId=0xe9
+; GPU1 Temp
+HWiNFO-GPU1-Temp-SensorId=0xe0002000
+HWiNFO-GPU1-Temp-SensorInstance=0x14
+HWiNFO-GPU1-Temp-EntryId=0x0
+; GPU1 FAN
+HWiNFO-GPU1-Fan-SensorId=0xf000ac00
+HWiNFO-GPU1-Fan-SensorInstance=0x0
+HWiNFO-GPU1-Fan-EntryId=0xa0
+GPU1-Fan-Min=1000
+GPU1-Fan-Max=5000
