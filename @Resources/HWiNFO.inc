@@ -1,0 +1,41 @@
+[Variables]
+
+; CPU 0
+HWiNFO-CPU0-SensorId=0xF0000300
+HWiNFO-CPU0-SensorInstance=0x0
+HWiNFO-CPU0-Usage=0xfe
+HWiNFO-CPU0-Core0Clock=0xd0
+HWiNFO-CPU0-Core1Clock=0xd1
+HWiNFO-CPU0-Core2Clock=0xd2
+HWiNFO-CPU0-Core3Clock=0xd3
+HWiNFO-CPU0-Core4Clock=0xd4
+HWiNFO-CPU0-Core5Clock=0xd5
+
+; CPU 0 DTS
+HWiNFO-CPU0-DTS-SensorId=0xF0000400
+HWiNFO-CPU0-DTS-SensorInstance=0x0
+HWiNFO-CPU0-DTS-CoreMax=0x7f
+
+; Motherboard
+HWiNFO-MOBO-SensorId=0xf001889a
+HWiNFO-MOBO-SensorInstance=0x1
+HWiNFO-MOBO-CPU-Fan=0xa0
+HWiNFO-MOBO-CPU-VCore=0x81
+
+; GPU 0
+HWiNFO-GPU0-SensorId=0xe0002000
+HWiNFO-GPU0-SensorInstance=0x0
+HWiNFO-GPU0-Usage=0xe9
+HWiNFO-GPU0-Temp=0x0
+HWiNFO-GPU0-Fan=0x100
+HWiNFO-GPU0-CoreClock=0xd0
+HWiNFO-GPU0-Voltage=0x80
+
+; GPU 1
+HWiNFO-GPU1-SensorId=0xe0002000
+HWiNFO-GPU1-SensorInstance=0x14
+HWiNFO-GPU1-Usage=0xe9
+HWiNFO-GPU1-Temp=0x0
+HWiNFO-GPU1-Fan=0x100
+HWiNFO-GPU1-CoreClock=0xd0
+HWiNFO-GPU1-Voltage=0x80
